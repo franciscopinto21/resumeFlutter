@@ -1,0 +1,15 @@
+import 'package:flutter/material.dart';
+
+class CodingPage extends StatelessWidget {
+  const CodingPage({super.key}); // Use super to pass the key to the parent class
+
+  @override
+  Widget build(BuildContext context) {
+    return Center(
+      child: const Text( // Use const here for better performance
+        'Coding Page2',
+        style: TextStyle(fontSize: 24),
+      ),
+    );
+  }
+}
